@@ -1,0 +1,60 @@
+.headingColumn{
+    /* background-color: aquamarine; */
+    height: 500px;
+    width: 800px;
+}
+.toptext{
+    /* background-color: blueviolet; */
+    /* width: 80%; */
+}
+
+.bigtextPara1{
+font-size: 53px;
+font-weight: 700;
+margin: 0px;
+color: white;
+font-family: 'Times New Roman';
+}
+.bigtextPara2{
+    color: #ff7200;
+    font-size: 65px;
+    font-weight: 700;
+    margin: 0px;
+    font-family: 'Times New Roman';
+}
+.bigtextPara3{
+    color: white;
+font-size: 53px;
+font-weight: 700;
+margin: 0px;
+font-family: 'Times New Roman';
+}
+
+
+.descriptiontext > p{
+    color: white;
+font-size: 20px;
+font-weight: 350;
+margin: 5px 0px;
+font-family: Arial;
+/* font-family: sans-serif; */
+line-height: 30px;
+letter-spacing: 0.8px;
+
+}
+
+.joinus{
+    background-color: #ff7200;
+    height: 40px;
+    width: 140px;
+    font-size: medium;
+    font-weight: 500;
+    border: 1px solid rgba(255, 166, 0, 0.655);
+    border-radius: 10px;
+    margin-top: 20px;
+    transition: 0.3s ease-in-out;
+}
+.joinus:hover{
+    background-color: white;
+   
+}

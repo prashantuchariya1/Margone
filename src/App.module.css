@@ -1,0 +1,18 @@
+body{
+  /* background-image: url("./assets/1.jpg"); */
+  background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(./assets/1.jpg);
+  background-size: cover;
+  background-position: center;
+  
+}
+
+.mid{
+  display: flex;
+  flex-direction: row;
+  /* background-color: aqua; */
+  width: 90%;
+  justify-content:space-between;
+  margin: auto;
+  margin-top: 120px;
+
+}

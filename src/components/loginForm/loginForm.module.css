@@ -1,0 +1,166 @@
+.loginForm{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    
+    background-color:black;
+    align-items: center;
+    padding: 25px  20px;
+}
+.toptext{
+    
+    background-color: white;
+    margin: 0px;
+    border-radius: 15px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 22px;
+    
+}
+.toptext>p{
+    
+    color: #ff7200;
+    margin: 0;
+    padding: 10px 0px;
+    font-size: 25px;
+    font-weight: 600;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: blue; */
+    width: 100%;
+    position: relative;
+}
+.clearButton1 {
+    position: absolute;
+    color: rgb(180, 179, 179);
+    font-size: 20px;
+    top: -3px;
+    right: 10px;
+    text-decoration: none; 
+    display: none; 
+}
+.InputFields1:hover + .clearButton1{
+    display: inline;
+}
+.InputFields1{
+    width: 100%;
+    background-color: black;
+    margin-bottom: 22px;
+    height: 30px;
+    border-style: none;
+    border-bottom: 2px solid #ff7200;
+    outline: none;
+    cursor: pointer;
+   
+    color: white;
+}
+.InputFields1::placeholder{
+    color: white;
+    font-size: 15px;
+    font-weight:500;
+}
+.InputFields2{
+    width: 100%;
+    background-color: black;
+    margin-bottom: 22px;
+    height: 30px;
+    border-style: none;
+    border-bottom: 2px solid #ff7200;
+    outline: none;
+    cursor: pointer;
+   
+    color: white;
+}
+.clearButton2 {
+    position: absolute;
+    color: rgb(180, 179, 179);
+    font-size: 20px;
+    top: 55px;
+    right: 10px;
+    text-decoration: none; 
+    display: none; 
+}
+.InputFields2:hover + .clearButton2{
+    display: inline;
+}
+.InputFields2::placeholder{
+    color: white;
+    font-size: 15px;
+    font-weight:500;
+}
+.loginButton{
+    background-color: #ff7200;
+    color: black;
+    padding: 10px 0px;
+    margin: 0px;
+    margin-bottom: 22px;
+    width: 100%;
+    font-size: 25px;
+    font-weight: 600;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+
+}
+.loginButton:hover{
+    background-color: white;
+   
+}
+
+.lowtext1{
+    color: white;
+    margin: 0px;
+
+}
+.signuptext{
+    display: flex;
+    margin: 0px;
+    margin-bottom: 22px;
+
+}
+.lowtext2{
+    color: #ff7200;
+    margin: 0px;
+    text-decoration: none;
+
+
+
+}
+.lowtext3{
+    color: white;
+    margin: 0px;
+    padding-left: 5px;
+
+}
+.lowtext4{
+    color: white;
+    margin: 0px;
+    margin-bottom: 15px;
+    font-family: 'Times New Roman';
+    
+
+}
+
+.socialmediaicons{
+margin: 0px;
+display: flex;
+flex-direction: row;
+color: white;
+width: 73%;
+/* background-color: blueviolet; */
+justify-content: space-around;
+
+}
+.socialmediaicons>a{
+
+color: white;
+
+}
+.socialmediaicons>a:hover{
+
+color: orange;
+
+}
